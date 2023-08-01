@@ -1,0 +1,37 @@
+.formulario__fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    border-style: none;
+}
+
+.form__label{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.input__form {
+    width: 90%;
+    padding: 1rem;
+    font-size: 18px;
+    border-style: none;
+}
+
+
+.input__button {
+    width: 92.5%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 18px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-style: none;
+    font-family: 'Raleway',sans-serif;
+    cursor: pointer;
+}

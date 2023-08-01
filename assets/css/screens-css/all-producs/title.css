@@ -1,0 +1,28 @@
+.section__title-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .section__title-all {
+        flex-direction: column;
+    }
+  }
+
+.section__title-all h3{
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.input__button-all{
+    padding: 0.5rem;
+    height: auto;
+    border-style: none;
+    background-color: var(--blue);
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+}

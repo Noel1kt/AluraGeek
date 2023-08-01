@@ -1,0 +1,14 @@
+.footer__information ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__information li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer__information li:hover{
+    color: var(--blue);
+}

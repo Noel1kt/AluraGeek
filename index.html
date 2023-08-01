@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/nav/nav.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-logo.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-search.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-login.css">
+    <link rel="stylesheet" href="assets/css/banner/banner.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-content.css">
+    <link rel="stylesheet" href="assets/css/section/section.css">
+    <link rel="stylesheet" href="assets/css/section/section-all.css">
+    <link rel="stylesheet" href="assets/css/section/section-title.css">
+    <link rel="stylesheet" href="assets/css/section/section-producs.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-information.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-contact.css">
+</head>
+
+<nav class="nav">
+    <div class="nav__logo">
+        <img src="assets/img/nav/Logo.png" alt="Logo">
+        <span class="nav__Alura">Alura</span>
+        <span class="nav__Geek">Geek</span>
+    </div>
+    <div class="nav__search">
+        <form class="nav__form">
+            <input class="nav__input" type="text" placeholder="¿Qué deseas buscar?">
+            <img class="nav__img" src="assets/img/nav/search.png" alt="lupa">
+        </form>
+    </div>
+    <div class="nav__login">
+       <a href="assets/screens/login.html"><button class="nav__button">Login</button></a>
+    </div>
+</nav>
+
+<header class="banner">
+    <div class="banner__content">
+        <div class="banner__title">
+            <h1>Julio Promocional</h1>
+        </div>
+        <div class="banner__offer">
+            <p>Productos seleccionados con 33% de descuento</p>
+        </div>
+        <div class="banner__btn">
+            <button>Ver Ofertas</button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="section">
+
+        <div class="section__title">
+            <h3>Star Wars</h3>
+            <p class="section__all">
+                <a href="/assets/screens/all-client-products.html"><span>Ver todo</span></a>
+                <img src="assets/img/body/arrow.png" alt="">
+            </p>
+        </div>
+
+        <div class="section__products" data-table>
+            
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <div class="section__title">
+            <h3>Consolas</h3>
+            <p class="section__all">
+                <a href="/assets/screens/all-client-products.html"><span>Ver todo</span></a>
+                <img src="assets/img/body/arrow.png" alt="">
+            </p>
+        </div>
+
+        <div class="section__products" data-table2>
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <div class="section__title">
+            <h3>Otros Productos</h3>
+            <p class="section__all">
+                <a href="/assets/screens/all-client-products.html"><span>Ver todo</span></a>
+                <img src="assets/img/body/arrow.png" alt="">
+            </p>
+        </div>
+
+        <div class="section__products" data-table3>
+            
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="nav__logo">
+            <img src="assets/img/nav/Logo.png" alt="Logo">
+            <span class="nav__Alura">Alura</span>
+            <span class="nav__Geek">Geek</span>
+        </div>
+        <div class="footer__information">
+          <ul>
+            <li>Quienes somos</li>
+            <li>Politica de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anúncie aquí</li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h3>Hable con nosotros<br><br></h3>
+          <div class="input-container">
+            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+            <label class="input-label" for="name"></label>
+          </div>
+          <div class="input-container">
+            <textarea cols="70" rows="10" id="Mensaje" class="input" required 
+            placeholder="Escribe tu mensaje aquí"></textarea>
+              <label class="input-label" for="description"></label>
+          </div>
+          <div class="banner__btn">
+            <button>Enviar mensaje</button>
+        </div>
+        </div>
+    </footer>
+    <script type="module" src="/assets/controllers/section-principal.controller.js"></script>
+</body>
+</html>

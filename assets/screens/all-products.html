@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doguito Petshop | Crear cuenta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/nav/nav.css">
+    <link rel="stylesheet" href="../css/nav/nav-logo.css">
+    <link rel="stylesheet" href="../css/nav/nav-search.css">
+    <link rel="stylesheet" href="../css/nav/nav-login.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/footer-information.css">
+    <link rel="stylesheet" href="../css/footer/footer-contact.css">
+    <link rel="stylesheet" href="../css/banner/banner.css">
+    <link rel="stylesheet" href="../css/banner/banner-content.css">
+    <link rel="stylesheet" href="../css/section/section.css">
+    <link rel="stylesheet" href="../css/section/section-all.css">
+    <link rel="stylesheet" href="../css/section/section-title.css">
+    <link rel="stylesheet" href="../css/section/section-producs.css">
+    <link rel="stylesheet" href="../css/screens-css/login/container.css">
+    <link rel="stylesheet" href="../css/screens-css/login/formulario.css">
+    <link rel="stylesheet" href="../css/screens-css/login/formulario-fieldset.css">
+    <link rel="stylesheet" href="../css/screens-css/all-producs/title.css">
+    <link rel="stylesheet" href="../css/screens-css/all-producs/icon-img.css">
+
+</head>
+<nav class="nav">
+    <a href="../../index.html" style="text-decoration: none;">
+    <div class="nav__logo">
+        <img src="../img/nav/Logo.png" alt="Logo">
+        <span class="nav__Alura">Alura</span>
+        <span class="nav__Geek">Geek</span>
+    </div>
+    </a>
+    <div class="nav__search">
+        <form class="nav__form">
+            <input class="nav__input" type="text" placeholder="¿Qué deseas buscar?">
+            <img class="nav__img" src="../img/nav/search.png" alt="lupa">
+        </form>
+    </div>
+    <div class="nav__login">
+    </div>
+</nav>
+<body>
+    <div class="section">
+
+        <div class="section__title-all">
+            <h3>Todos los productos</h3>
+            <a class="input__all" href="../screens/add-products.html" style="text-decoration: none;">
+                <button class="input__button-all">Agregar Producto</button>
+            </a>
+        </div>
+
+        <div class="section__products" data-table>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <a href="../../index.html" style="text-decoration: none;">
+            <div class="nav__logo">
+                <img src="../img/nav/Logo.png" alt="Logo">
+                <span class="nav__Alura">Alura</span>
+                <span class="nav__Geek">Geek</span>
+            </div>
+            </a>
+        <div class="footer__information">
+          <ul>
+            <li>Quienes somos</li>
+            <li>Politica de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anúncie aquí</li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h3>Hable con nosotros<br><br></h3>
+          <div class="input-container">
+            <input name="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+            
+          </div>
+          <div class="input-container">
+            <textarea cols="70" rows="10" id="Mensaje" class="input" required 
+            placeholder="Escribe tu mensaje aquí"></textarea>
+              
+          </div>
+          <div class="banner__btn">
+            <button>Enviar mensaje</button>
+        </div>
+        </div>
+    </footer>
+    <script type="module" src="../controllers/client-controller.js"></script>
+</body>
+</html>

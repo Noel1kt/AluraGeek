@@ -1,0 +1,15 @@
+.input-container{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.input-container input, textarea{
+    width: 90%;
+    padding: 1rem;
+    border-style: none;
+}
+
+.input-container textarea:focus{
+    border: none;
+    outline: none;
+}

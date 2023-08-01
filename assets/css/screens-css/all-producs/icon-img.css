@@ -1,0 +1,33 @@
+.section__image-btn{
+    width: 100%;
+    display: flex;
+
+}
+
+
+.section__image-btn a{
+   width: 50%;
+}
+
+
+.section__image-btn .Editar{
+   width: 100%;
+   padding: 5px;
+   background-color: var(--blue);
+   border-style: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.section__image-btn .Eliminar{
+    width: 50%;
+    padding: 5px;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+ }

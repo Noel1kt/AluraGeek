@@ -1,0 +1,27 @@
+.nav__logo{
+    display: flex;
+    align-items: center;
+    font-size: .75rem;
+    cursor: pointer;
+   
+}
+
+.nav__logo img{
+    width: 1.75rem;
+    height: auto;
+    padding: 0.25rem;
+} 
+
+.nav__Alura{
+   font-size: 1.5em;
+   font-weight: bold;
+   font-family: 'Raleway';
+   color: var(--blue);
+} 
+
+.nav__Geek{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Raleway';
+    color: var(--grey);
+ } 

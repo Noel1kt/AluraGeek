@@ -1,0 +1,17 @@
+.nav__login{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav__button{
+    padding: 0.5rem;
+    width: 130px;
+    height: auto;
+    border: 1px solid var(--blue);
+    background-color: var(--white);
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: var(--blue);
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "package-alurageek",
+  "version": "1.0.0",
+  "description": "Proyecto AluraGeek",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "keywords": [
+    "first",
+    "project"
+  ],
+  "author": "Noel Mazariegos",
+  "license": "ISC"
+}
