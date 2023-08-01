@@ -1,17 +1,17 @@
 {
-  "name": "json-server-deploy",
+  "name": "package-alurageek",
   "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
-  "main": "server.js",
+  "description": "Proyecto AluraGeek",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": ""
   },
   "keywords": [
-    "json-server,heroku, node, REST API"
+    "first",
+    "project"
   ],
-  "author": "Jesper Orb",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+  "author": "Noel Mazariegos",
+  "license": "ISC"
 }
+
+

@@ -55,6 +55,7 @@ clientServices.listaProductos().then((data) => {
         botonEliminar.addEventListener("click", () => {
             clientServices.eliminarCliente(id).then(respuesta =>{
                 console.log(respuesta);
+                window.location.href="../screens/all-products.html"
             }).catch(err => alert("Ocurrió un error XD"));
         });
 
