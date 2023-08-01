@@ -1,9 +1,9 @@
 //Fech API 
-const listaProductos = () =>  fetch("https://military-unruly-sunset.glitch.me/productos").then(respuesta => respuesta.json());
+const listaProductos = () =>  fetch("https://accurate-bald-toaster.glitch.me/productos").then(respuesta => respuesta.json());
 
 
 const crearProducto = (imagen,nombre,precio) => {
-    return fetch("https://military-unruly-sunset.glitch.me/productos", {
+    return fetch("https://accurate-bald-toaster.glitch.me/productos", {
         method:"POST", 
         headers: {
             "Content-Type": "application/json"
@@ -13,18 +13,18 @@ const crearProducto = (imagen,nombre,precio) => {
 }
 
 const eliminarCliente = (id) => {
-    return fetch(`https://military-unruly-sunset.glitch.me/productos/${id}`, {
+    return fetch(`https://accurate-bald-toaster.glitch.me/productos/${id}`, {
         method: "DELETE",
     });
 }
 
 const detalleCliente = (id) => {
-    return fetch(`https://military-unruly-sunset.glitch.me/productos/${id}`).then((respuesta) => respuesta.json()
+    return fetch(`https://accurate-bald-toaster.glitch.me/productos/${id}`).then((respuesta) => respuesta.json()
     );
 }
 
 const actualizarCliente = (imagen,nombre,precio,id) =>{
-    return fetch(`https://military-unruly-sunset.glitch.me/productos/${id}`, {
+    return fetch(`https://accurate-bald-toaster.glitch.me/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
