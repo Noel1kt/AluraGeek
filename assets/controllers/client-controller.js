@@ -11,7 +11,7 @@ const crearNuevaLinea = (imagen,nombre,precio,id) => {
         <h4 class="section__title-article">${nombre}</h4>
         <p class="section__price-article">
             <strong>
-                R$
+                Q
                 ${precio}
             </strong>
         </p>
