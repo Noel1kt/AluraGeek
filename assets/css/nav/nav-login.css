@@ -14,4 +14,13 @@
     font-weight: bold;
     color: var(--blue);
     cursor: pointer;
+    box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease;
+    
 }
+
+.nav__button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: var(--blue);
+    color: var(--white);
+  }
