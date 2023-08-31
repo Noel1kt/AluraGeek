@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-service.js";
 const formulario = document.querySelector("[data-form]");
-console.log(formulario);
+console.log(formulario,"este");
 
 formulario.addEventListener("submit", (evento) => {
   evento.preventDefault();

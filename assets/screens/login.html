@@ -41,22 +41,21 @@
 </nav>
 <body>
     <main class="container">
-        <section class="formulario">
+        <form class="formulario" data-formlog>
                 <fieldset class="formulario__fieldset">
                     <legend class="form__label">Iniciar Sesión</legend>
                     
-                    <input name="email" id="email" class="input__form" type="email" placeholder="Email" required data-tipo="email">
+                    <input name="email" id="email" class="input__form" type="email" placeholder="Email" required data-tipo="email" data-user>
                     <label class="input-label" for="email"></label>
                    
-                    <input name="password" id="password" class="input__form" type="password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                    <input name="password" id="password" class="input__form" type="password" placeholder="Contraseña" required  title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password" data-passw>
                     <label class="input-label" for="password"></label>
                     
-                    <a class="input__button" href="../../assets/screens/add-products.html" style="text-decoration: none;">
-                    <button class="input__button">Entrar</button>
-                    </a>
-              
+                   
+                    <button class="input__button" type="submit">Entrar</button>
+                  
                 </fieldset>
-        </section>
+        </form>
     </main>
 
     <footer class="footer">
@@ -93,5 +92,6 @@
         </div>
         </div>
     </footer>
+    <script type="module" src="../controllers/login-controller.js"></script>
 </body>
 </html>
