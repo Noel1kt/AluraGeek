@@ -5,3 +5,28 @@
     height: 50vh;
     font-size: 1.5rem;
   }
+
+  .icon-container {
+    display: inline-block;
+    position: relative;
+  }
+
+  .icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .icon-container:hover::after {
+    content: attr(data-tooltip);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    white-space: normal; /* Mostrar contenido en varias líneas */
+    max-width: 200px; /* Opcional: establecer un ancho máximo para el tooltip */
+  }

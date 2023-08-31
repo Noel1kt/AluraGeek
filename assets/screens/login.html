@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../css/screens-css/login/container.css">
     <link rel="stylesheet" href="../css/screens-css/login/formulario.css">
     <link rel="stylesheet" href="../css/screens-css/login/formulario-fieldset.css">
+    <link rel="stylesheet" href="../css/loading.css">
 
 </head>
 <nav class="nav">
@@ -41,9 +42,14 @@
 </nav>
 <body>
     <main class="container">
+        
         <form class="formulario" data-formlog>
                 <fieldset class="formulario__fieldset">
                     <legend class="form__label">Iniciar Sesión</legend>
+                    <div class="icon-container" data-tooltip="Entrar como Invitado: usuario123@gmail.com usuario123">
+                        <span class="icon">❓</span>
+                    </div>
+
                     
                     <input name="email" id="email" class="input__form" type="email" placeholder="Email" required data-tipo="email" data-user>
                     <label class="input-label" for="email"></label>
