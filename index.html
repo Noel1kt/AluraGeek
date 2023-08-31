@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="assets/css/footer/footer.css">
     <link rel="stylesheet" href="assets/css/footer/footer-information.css">
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css">
+    <link rel="stylesheet" href="assets/css/loading.css">
+    
+
 </head>
 
 <nav class="nav">
@@ -58,7 +61,6 @@
 
 <body>
     <div class="section">
-
         <div class="section__title">
             <h3>Star Wars</h3>
             <p class="section__all">
@@ -66,9 +68,12 @@
                 <img src="assets/img/body/arrow.png" alt="">
             </p>
         </div>
-
+        <div id="content-container" style="display: none;">
         <div class="section__products" data-table>
-            
+        </div>
+        </div>
+        <div id="loading-container" class="loading">
+            Cargando...
         </div>
 
     </div>

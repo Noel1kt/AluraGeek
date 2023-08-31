@@ -1,6 +1,20 @@
 //Fech API 
 const listaProductos = () =>  fetch("https://accurate-bald-toaster.glitch.me/productos").then(respuesta => respuesta.json());
-
+window.onload = function() {
+    const loadingContainer = document.getElementById("loading-container");
+    const contentContainer = document.getElementById("content-container");
+  
+    // Simular tiempo de carga (en milisegundos)
+    const tiempoCarga = 8000;
+  
+    // Aquí se simula la carga de datos
+    setTimeout(function() {
+      // Mostrar contenido y ocultar animación de carga
+      loadingContainer.style.display = "none";
+      contentContainer.style.display = "block";
+      const listaProductos = () =>  fetch("https://accurate-bald-toaster.glitch.me/productos").then(respuesta => respuesta.json());
+    }, tiempoCarga);
+  };
 
 const crearProducto = (imagen,nombre,precio) => {
     return fetch("https://accurate-bald-toaster.glitch.me/productos", {
