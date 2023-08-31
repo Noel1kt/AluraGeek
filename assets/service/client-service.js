@@ -5,7 +5,7 @@ window.onload = function() {
     const contentContainer = document.getElementById("content-container");
   
     // Simular tiempo de carga (en milisegundos)
-    const tiempoCarga = 8000;
+    const tiempoCarga = 10000;
   
     // Aquí se simula la carga de datos
     setTimeout(function() {
